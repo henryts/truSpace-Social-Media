@@ -1,0 +1,44 @@
+{
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "cookie-session": "^2.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "http": "^0.0.1-security",
+    "mongoose": "^7.3.2",
+    "morgan": "^1.10.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.6"
+  },
+  "devDependencies": {
+    "@types/cookie-parser": "^1.4.3",
+    "@types/cookie-session": "^2.0.44",
+    "@types/cors": "^2.8.13",
+    "@types/express": "^4.17.17",
+    "@types/morgan": "^1.9.4"
+  },
+  "name": "truspace",
+  "version": "1.0.0",
+  "description": "social-media",
+  "main": "app.js",
+  "scripts": {
+    "test": "npm start",
+    "start": "ts-node ./src/app.ts",
+    "build": "tsc -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/henryts/truSpace-Social-Media.git"
+  },
+  "keywords": [
+    "truSpace",
+    "socialmedia"
+  ],
+  "author": "s.cavil_Henry",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/henryts/truSpace-Social-Media/issues"
+  },
+  "homepage": "https://github.com/henryts/truSpace-Social-Media#readme"
+}
